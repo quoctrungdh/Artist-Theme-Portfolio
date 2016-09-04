@@ -1,0 +1,49 @@
+{
+    "base": {
+        "src": "src/",
+        "build": "build/",
+        "compile": "compile/",
+        "test": "test/",
+        "vendor": "vendor/",
+        "static": "static/"
+    },
+    "path": {
+        "sass": "assets/scss/",
+        "css": "assets/css/",
+        "images": "assets/img/",
+        "fonts": "assets/fonts/",
+        "js": "assets/js",
+        "root": "root/"
+    },
+    "files": {
+        "index": "index.html",
+        "pugindex": "index.pug",
+        "html": "**/*.html",
+        "pug": "**/*.pug",
+        "tmpl": "**/*.tmpl",
+        "sass": "app.scss",
+        "sassAll": "**/*.scss",
+        "css": "**/*.css",
+        "js": "**/*.js",
+        "fonts": "**",
+        "images": "{,*/,*/*/}*.{png,jpg,jpeg,gif}",
+        "root": "**",
+        "hidden": ".**",
+        "static": "**/*.*"
+    },
+    "vendor":{
+        "jsCss": [
+            "vendor/jquery/dist/jquery.js",
+            "vendor/bootstrap-sass/assets/javascripts/bootstrap.js"
+        ],
+        "assets": []
+    },
+    "env": {
+        "prod": {
+            "api_url": "//api.ekino.dev2.ekino.com"
+        },
+        "dev": {
+            "api_url": "//api.ekino.ekino.com"
+        }
+    }
+}

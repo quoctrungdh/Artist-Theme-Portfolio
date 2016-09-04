@@ -1,0 +1,25 @@
+{
+  "name": "spikes",
+  "description": "Spikes a music recomendation app",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "_*",
+    "docs-assets",
+    "examples",
+    "/fonts",
+    "js/tests",
+    "CNAME",
+    "CONTRIBUTING.md",
+    "composer.json",
+    "*.html"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "3.3.6",
+    "jquery": "2.2.4"
+  },
+  "resolutions": {
+    "jquery": "2.2.4"
+  },
+  "devDependencies": {}
+}
