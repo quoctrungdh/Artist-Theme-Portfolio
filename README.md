@@ -37,3 +37,4 @@ Multiple gulp tasks have been registered to help you start quickly:
 
 ####HTTP server (browser-sync)
 The `Gulp` default task launch a http server on `localhost:3000` pointing to `build/`. When you stop the watch task, the server stops.
+"# Artist-Theme-Portfolio" 
