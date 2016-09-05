@@ -1,0 +1,14 @@
+header
+    div.logo
+
+    -var menu = { "about me": '#', 'work': '#', 'clients': '#', 'contact': '#'};
+
+    nav
+      ul
+        each val, key in menu
+          li
+           a(href=val)= key
+    
+    .kicker       
+      h1 Artist theme
+      p Thinker // Designer // Youtuber

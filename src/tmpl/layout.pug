@@ -4,8 +4,8 @@ html(xmlns='http://www.w3.org/1999/xhtml')
     include head.pug
 
     body
-        include nav.pug
-        .container-fluid
-            block content
-
-        include scripts.pug
+      include modules/header.pug
+      block content
+      
+      include modules/footer.pug
+      //- include scripts.pug

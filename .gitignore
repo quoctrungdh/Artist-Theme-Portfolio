@@ -3,6 +3,7 @@ _gh_pages
 _site
 .ruby-version
 .grunt
+the_design.psd
 
 # Numerous always-ignore extensions
 *.diff
